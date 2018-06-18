@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Kami神之折纸</title>
+    <link rel="stylesheet" type="text/css" href="kami.css">
+    <script type="text/javascript"
+            src="http://libs.baidu.com/jquery/1.9.0/jquery.min.js"></script>
+    <script type="text/javascript" src="kami.js"></script>
+    <script type="text/javascript" src="data.js"></script>
+</head>
+<body background="images/背景3.jpg">
+
+<header>
+    <h1 align="center">KAMI</h1>
+
+</header>
+
+<!--<section>-->
+    <audio autoplay="loop"><source src="audio/Schnappi.mp3"></audio>
+
+    <!--<audio id="audio" src="音频地址" style="display:none"></audio>-->
+
+    <div id="boxRender">
+        <!--<div id="nowSelectColor">-->
+        <p style="font-size: 30px">
+            限制步数:<span id="steps" style="color: #3ebd06" >0</span>
+        </p>
+        <p style="font-size: 30px">
+            当前已用步数：<span id="nowsteps" style="color: #FF0000">0</span>
+        </p>
+        <p style="font-size: 30px">
+            已选颜色：<div class="nowSelectColor" id="nowSelectColor"></div>
+        </p>
+
+        <div id="colorSelect" class="colorSelect">
+
+            <div class="grid-cell2" onclick="changeID(0)" id="grid_cell_111"></div>
+            <div class="grid-cell2" onclick="changeID(1)" id="grid_cell_112"></div>
+            <div class="grid-cell2" onclick="changeID(2)" id="grid_cell_113"></div>
+            <div class="grid-cell2" onclick="changeID(3)" id="grid_cell_114"></div>
+
+
+        </div>
+
+        <div class="imgShowRow">
+            <div onclick="changeDraw(0)" style=" background-image: url(images/lev1.png);" class="item">
+                <div class="toolBox">NO.1</div>
+            </div>
+            <div onclick="changeDraw(1)" style=" background-image: url(images/lev2.png);" class="item">
+                <div class="toolBox">NO.2</div>
+            </div>
+            <div onclick="changeDraw(2)" style=" background-image: url(images/lev3.png);" class="item">
+                <div class="toolBox">NO.3</div>
+            </div>
+            <div onclick="changeDraw(3)" style=" background-image: url(images/lev4.png);" class="item">
+                <div class="toolBox">NO.4</div>
+            </div>
+            <div onclick="changeDraw(4)" style=" background-image: url(images/lev5.png);" class="item">
+                <div class="toolBox">NO.5</div>
+            </div>
+            <div onclick="changeDraw(5)" style=" background-image: url(images/lev6.png);" class="item">
+                <div class="toolBox">NO.6</div>
+            </div>
+        </div>
+
+</div>
+</section>
+
+
+
+</body>
+</html>

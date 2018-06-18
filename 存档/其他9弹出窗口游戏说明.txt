@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>failure</title>
+    <link rel="stylesheet" type="text/css" href="kami.css">
+</head>
+<body >
+
+<div style="align-content: center;width: max-content;height: max-content" ><img src="images/failure.jpg" style="ce">
+</div>
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>instruction</title>
+</head>
+<body>
+<div >
+    <img style="width: 500px;align-content: center;margin: auto" src="images/instruction1.png">
+    <img style="width: 500px;align-content: center;margin: auto" src="images/instruction2.png">
+    <img style="width: 500px;align-content: center;margin: auto" src="images/instruction3.png">
+    <img style="width: 500px;align-content: center;margin: auto" src="images/instruction4.png">
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>success</title>
+    <link rel="stylesheet" type="text/css" href="kami.css">
+</head>
+<body >
+
+<div style="align-content: center;width: max-content;height: max-content" ><img src="images/success.jpg" style="ce">
+</div>
+
+
+
+</body>
+</html>

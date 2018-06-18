@@ -1,0 +1,196 @@
+@CHARSET "UTF-8";
+
+header h1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:40px;
+    font-weight:bold;
+    z-index: -1;
+}
+header h2{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:10px;
+    /*font-weight:bold;*/
+    height: 10px;
+    right: 0px;
+}
+header p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:40px;
+    font-weight:bold;
+}
+.main-content1 {
+    width: 50px;
+    /*height: 20px;*/
+    position: absolute;
+    right: 150px;
+    padding: 12px 12px 12px 12px;
+    border: 1px solid #dddddd;
+    border-radius:35px;
+    margin: 10px auto 0 auto;
+    background: #f1f1f1;
+    -webkit-box-shadow: 0 0 22px 0 rgba(50, 50, 50, 1);
+    -moz-box-shadow:    0 0 22px 0 rgba(50, 50, 50, 1);
+    box-shadow:         0 0 22px 0 rgba(50, 50, 50, 1);
+    cursor: url('images/aero-large-middle-finger.cur'), default;
+
+}
+.main-content1 h2{
+    color: dimgray;
+    /*font-size: px;*/
+    text-align: center;
+    position:center;
+}
+
+#grid-container{
+    width:300px;
+    height:480px;
+    margin:50px auto;
+    background:#eeeeee;
+}
+
+.grid-cell{
+    width:30px;
+    height:30px;
+    position:absolute;
+    border: 1px solid #9f8b77;
+    cursor:default;
+}
+
+.grid-cell2{
+    width:50px;
+    height:50px;
+    position:absolute;
+    border: 1px solid #9f8b77;
+}
+
+
+.colorSelect{
+    width:1000px;
+    margin: auto;
+    margin-top: 30px;
+    /*float: left;*/
+    position: absolute;
+    left: -350px;
+    cursor: url('images/aero-large-middle-finger.cur'), default;
+    /*box-sizing: border-box;*/
+    /*padding-top: 50px;*/
+}
+
+.nowSelectColor{
+    width: 50px;
+    height: 50px;
+    /*position: absolute;*/
+    /*left:-100px;*/
+    /*top: 0;*/
+    background-color: #000000;
+    border: 1px solid #e6eaee;
+}
+
+
+.imgShowRow{
+    width: 1000px;
+    margin: auto;
+    margin-top: 220px;
+    position:absolute;
+    /*bottom: 0px;*/
+    /*top: 500px;*/
+    left: -100px;
+    /*height: 100px;*/
+
+}
+
+
+.imgShowRow .item{
+    width: 100px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid #e6eaee;
+    float: left;
+    bottom: 20px;
+    position: relative;
+    overflow: hidden;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+.imgShowRow .item:hover .toolBox{
+    top: 0%;
+    transition: all 0.25s linear;
+}
+.imgShowRow .item .toolBox{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    background-color: rgba(0,0,0,0.4);
+    top: 100%;
+    left: 0;
+    transition: all 0.25s linear;
+    cursor: pointer;
+
+}
+
+
+.imgShowRow1{
+    width: 1000px;
+    margin: auto;
+    margin-top: 280px;
+    position:absolute;
+    /*bottom: 0px;*/
+    /*top: 500px;*/
+    left: -100px;
+    /*height: 100px;*/
+
+}
+
+
+.imgShowRow1 .item{
+    width: 100px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid #e6eaee;
+    float: left;
+    bottom: 20px;
+    position: relative;
+    overflow: hidden;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+.imgShowRow1 .item:hover .toolBox{
+    top: 0%;
+    transition: all 0.25s linear;
+}
+.imgShowRow1 .item .toolBox{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    background-color: rgba(0,0,0,0.4);
+    top: 100%;
+    left: 0;
+    transition: all 0.25s linear;
+    cursor: pointer;
+
+}
+
+#boxRender{
+
+    position: relative;
+    width: 800px;
+    /*height: 1000px;*/
+    margin: auto;
+    border: 1px solid #e6eaee;
+    margin-top: 10px;
+}
+
+header p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:50px;
+    font-weight: bold;
+    margin:20px auto;
+}
